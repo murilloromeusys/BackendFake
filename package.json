@@ -1,0 +1,14 @@
+{
+  "name": "BackendFake",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/murilloromeusys/BackendFake.git",
+  "author": "murilloromeusys <murillo@sysconsulting.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "server": "json-server --watch db.json --port 2345"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
